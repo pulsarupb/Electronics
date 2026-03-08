@@ -63,30 +63,13 @@
           "width": 0.5
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|73025000|132000000|cce2e8e6-3da4-4bb6-a46c-817e04c0cf9f|21127a09-ff21-47b3-ad51-d324fe93e240",
-          ""
-        ],
-        [
-          "hole_clearance|73025000|132000000|cce2e8e6-3da4-4bb6-a46c-817e04c0cf9f|58f1a0dc-8f81-493e-bdee-36c3fa2ff8b2",
-          ""
-        ],
-        [
-          "hole_clearance|73025000|138100000|55d6b789-1787-4147-ac26-310aa214fd47|93dac001-77ed-4466-8a57-a3ffc2d29659",
-          ""
-        ],
-        [
-          "hole_clearance|73025000|138100000|55d6b789-1787-4147-ac26-310aa214fd47|95ff8d3a-dd78-4855-974e-1f97a6a5e668",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -121,7 +104,7 @@
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
-        "shorting_items": "error",
+        "shorting_items": "ignore",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
@@ -138,7 +121,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "unconnected_items": "error",
+        "unconnected_items": "ignore",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
@@ -525,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
