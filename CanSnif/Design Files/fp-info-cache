@@ -1,4 +1,4 @@
-27120425500181736
+27123971289799725
 25VC_Clamp_15A25us_SOT-323-3L
 SOT-323-3_L2.1-W1.3-P1.32-LS2.1-BR
 SOT-323-3_L2.1-W1.3-P1.32-LS2.1-BR footprint
@@ -13,6 +13,13 @@ DFN1610-2_L1.6-W1.0-P1.05-RD footprint C1974707
 0
 2
 2
+104031-0811
+MOLEX_104031-0811
+
+
+0
+14
+14
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -398,6 +405,13 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+Battery Holder
+BAT_3003
+
+
+0
+3
+3
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
